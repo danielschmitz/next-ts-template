@@ -1,12 +1,10 @@
+// install eslint and prettier extensions!
 {
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features",
-        "editor.codeActionsOnSave": {
-            "source.fixAll": true
-        }
-    },
     "editor.formatOnSave": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    }
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
