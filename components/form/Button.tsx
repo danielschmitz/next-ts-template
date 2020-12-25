@@ -1,3 +1,7 @@
-export default function Button() {
-    return <button>Click me</button>
-  }
+import React from 'react';
+
+const Button: React.FC = () => {
+  return <button>foo</button>;
+};
+
+export default Button;
